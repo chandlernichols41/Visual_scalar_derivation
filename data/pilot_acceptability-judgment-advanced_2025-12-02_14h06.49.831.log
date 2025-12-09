@@ -1,0 +1,125 @@
+20.4468 	INFO 	Loaded monitor calibration from ['2025_11_04 16:23']
+20.6469 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+20.6469 	INFO 	OpenGL version supported by driver is 4..
+20.7661 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AEE40214E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AEE4021480>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AEE4121CC0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.7662 	EXP 	window1: backgroundImage = ''
+20.7662 	EXP 	window1: backgroundFit = 'none'
+20.8000 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8162 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8479 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8651 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8812 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.8971 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9131 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9289 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9447 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9606 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9763 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.9919 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0081 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0241 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0399 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0558 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.0871 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1031 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1184 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1188 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.1204 	DEBUG 	Upload of Texture Font fontname complete
+21.1510 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1669 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1828 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.1831 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.1841 	DEBUG 	Upload of Texture Font fontname complete
+21.1861 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.1861 	EXP 	window1: recordFrameIntervals = False
+21.3512 	EXP 	window1: recordFrameIntervals = True
+21.4382 	WARNING 	t of last frame was 20.75ms (=1/48)
+21.4656 	WARNING 	t of last frame was 27.34ms (=1/36)
+21.7029 	EXP 	Screen (0) actual frame rate measured at 59.44Hz
+21.7031 	EXP 	window1: recordFrameIntervals = False
+21.7872 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8056 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8213 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8378 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8538 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8698 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8853 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9017 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9177 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9336 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.9339 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.9349 	DEBUG 	Upload of Texture Font fontname complete
+22.1640 	INFO 	keyboard.Keyboard is using ptb backend.
+22.1642 	INFO 	keyboard.Keyboard is using ptb backend.
+22.1642 	EXP 	acceptability-judgment-advanced: status = STARTED
+22.2837 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3383 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3386 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.3391 	DEBUG 	Upload of Texture Font fontname complete
+22.3873 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.3876 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.3886 	DEBUG 	Upload of Texture Font fontname complete
+22.4165 	EXP 	Created partyslider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=['Democrat', 'Repbulican'], lineColor=None, markerColor=None, name='partyslider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2]), units='height', win=Window(...))
+22.4212 	EXP 	Created partyInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='partyInstructions', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.4363 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('left', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+22.4404 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('right', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([1.  , 0.25]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+22.4664 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4673 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4689 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4692 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4696 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4704 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4710 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4715 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.4717 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.4726 	DEBUG 	Upload of Texture Font fontname complete
+22.5101 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([0.5, 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([0, 1, 2, 3, 4]), units='height', win=Window(...))
+0.0040 	EXP 	partyslider: autoLog = True
+0.0040 	EXP 	partyslider: styleTweaks = []
+0.0040 	EXP 	partyslider: styleTweaks = []
+0.0040 	EXP 	partyslider: styleTweaks = []
+0.0040 	EXP 	partyslider: styleTweaks = []
+0.0040 	EXP 	partyslider: contrast = 1.0
+0.0040 	EXP 	partyslider: markerPos = None
+0.0040 	EXP 	partyslider: autoLog = True
+0.0040 	EXP 	textbox: autoLog = True
+0.0040 	EXP 	errorBox: autoLog = True
+0.0040 	EXP 	slider: autoLog = True
+0.0040 	EXP 	slider: ticks = <class 'numpy.ndarray'>
+0.0040 	EXP 	slider: styleTweaks = []
+0.0040 	EXP 	slider: styleTweaks = []
+0.0040 	EXP 	slider: styleTweaks = []
+0.0040 	EXP 	slider: styleTweaks = []
+0.0040 	EXP 	slider: contrast = 1.0
+0.0040 	EXP 	slider: markerPos = None
+0.0040 	EXP 	slider: autoLog = True
+0.0236 	INFO 	Keyboard events cleared
+0.0234 	EXP 	text: autoDraw = True
+0.8358 	DATA 	Mouse: Left button down, pos=(467,166)
+0.9196 	DATA 	Mouse:  Left button up, pos=(467,166)
+1.1480 	EXP 	Device response: <KeyPress from None: t=1.1244112000567839, value=space, duration=None>
+1.1542 	DATA 	Keypress: space
+1.1883 	EXP 	text: autoDraw = False
+1.1883 	EXP 	partyslider: markerPos = None
+1.1883 	EXP 	partyslider: markerPos = None
+1.1883 	EXP 	partyslider: autoDraw = True
+1.1883 	EXP 	partyInstructions: autoDraw = True
+1.2307 	EXP 	Device response: <KeyPress from None: t=1.1244112000567839, value=space, duration=0.08783939993008971>
+2.2590 	DATA 	Mouse: Left button down, pos=(116,301)
+2.2724 	EXP 	partyslider: markerPos = np.float64(1.0266666666666666)
+2.2882 	EXP 	partyslider: markerPos = np.float64(1.0266666666666666)
+2.3050 	EXP 	partyslider: markerPos = np.float64(1.0266666666666666)
+2.3220 	EXP 	partyslider: markerPos = np.float64(1.0266666666666666)
+2.3277 	DATA 	Mouse:  Left button up, pos=(116,301)
+2.3550 	EXP 	partyslider: markerPos = 1.0
+2.3858 	DEBUG 	Read excel file with openpyxl: Stimuli_w_path.xlsx
+2.3875 	EXP 	Imported Stimuli_w_path.xlsx as conditions, 3 conditions, 6 params
+2.3884 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Pair': 'adequate/good', 'SIDR': 0.44, 'weak_sentence': 'The spokesperson said the office equipment was adequate.', 'strong_sentence': 'The spokesperson said the office equipment was good.', 'weak_image': 'Image stimuli/Adequate_Sora_25112025.png', 'strong_image': 'Image stimuli/Good_Sora_25112025 (3).png', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.6543 	DEBUG 	Saving data for acceptability-judgment-advanced ExperimentHandler
+2.6554 	INFO 	saved data to C:\Users\ctnic\OneDrive\Desktop\FInal_ling_805\data\pilot_acceptability-judgment-advanced_2025-12-02_14h06.49.831.psydat
+2.6563 	INFO 	saved data to 'C:\\Users\\ctnic\\OneDrive\\Desktop\\FInal_ling_805\\data\\pilot_acceptability-judgment-advanced_2025-12-02_14h06.49.831.csv'
+2.6640 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+2.6954 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,366 @@
+6.6431 	INFO 	Loaded monitor calibration from ['2025_11_04 16:23']
+6.8676 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+6.8676 	INFO 	OpenGL version supported by driver is 4..
+6.9998 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FE341E5EA0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FE341E5E40>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FE342D5570>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9998 	EXP 	window1: backgroundImage = ''
+6.9998 	EXP 	window1: backgroundFit = 'none'
+7.0343 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0515 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0682 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0842 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1004 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1162 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1321 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1483 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1636 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1788 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1947 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2106 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2267 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2425 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2581 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2737 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2902 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3057 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3215 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3374 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3532 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3536 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.3551 	DEBUG 	Upload of Texture Font fontname complete
+7.3841 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.4002 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.4166 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.4169 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.4179 	DEBUG 	Upload of Texture Font fontname complete
+7.4199 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.4200 	EXP 	window1: recordFrameIntervals = False
+7.5117 	EXP 	window1: recordFrameIntervals = True
+7.8663 	EXP 	Screen (0) actual frame rate measured at 71.23Hz
+7.8664 	EXP 	window1: recordFrameIntervals = False
+7.9422 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9594 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9755 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9917 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0083 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0244 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0398 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0556 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0718 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0882 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0886 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.0897 	DEBUG 	Upload of Texture Font fontname complete
+8.3589 	INFO 	keyboard.Keyboard is using ptb backend.
+8.3591 	INFO 	keyboard.Keyboard is using ptb backend.
+8.3591 	EXP 	acceptability-judgment-advanced: status = STARTED
+8.4769 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.4847 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5204 	EXP 	Created partyslider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='partyslider', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=1, style='slider', styleTweaks=[], ticks=array([1, 2]), units='height', win=Window(...))
+8.5263 	EXP 	Created partyInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='partyInstructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5390 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('left', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+8.5432 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('right', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([1.  , 0.25]), size=array([0.7, 0.7]), texRes=128.0, units='height', win=Window(...))
+8.5718 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5735 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5753 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5768 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5778 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5789 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5805 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5819 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5830 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5833 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.5842 	DEBUG 	Upload of Texture Font fontname complete
+8.6229 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-5, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([0.5, 0.1]), startValue=None, style='rating', styleTweaks=['triangleMarker'], ticks=array([0, 1, 2, 3, 4]), units='height', win=Window(...))
+0.0061 	EXP 	partyslider: autoLog = True
+0.0061 	EXP 	partyslider: styleTweaks = []
+0.0061 	EXP 	partyslider: styleTweaks = []
+0.0061 	EXP 	partyslider: styleTweaks = []
+0.0061 	EXP 	partyslider: styleTweaks = []
+0.0061 	EXP 	partyslider: contrast = 1.0
+0.0061 	EXP 	partyslider: markerPos = 1
+0.0061 	EXP 	partyslider: autoLog = True
+0.0061 	EXP 	textbox: autoLog = True
+0.0061 	EXP 	errorBox: autoLog = True
+0.0061 	EXP 	slider: autoLog = True
+0.0061 	EXP 	slider: ticks = <class 'numpy.ndarray'>
+0.0061 	EXP 	slider: styleTweaks = []
+0.0061 	EXP 	slider: styleTweaks = []
+0.0061 	EXP 	slider: styleTweaks = ['triangleMarker']
+0.0061 	EXP 	slider: styleTweaks = ['triangleMarker']
+0.0061 	EXP 	slider: contrast = 1.0
+0.0061 	EXP 	slider: markerPos = None
+0.0061 	EXP 	slider: autoLog = True
+0.0193 	INFO 	Keyboard events cleared
+0.0193 	EXP 	text: autoDraw = True
+1.8450 	DATA 	Mouse: Left button down, pos=(667,214)
+1.9774 	DATA 	Mouse:  Left button up, pos=(667,214)
+3.5510 	EXP 	Device response: <KeyPress from None: t=3.5297158000757918, value=space, duration=None>
+3.5546 	DATA 	Keypress: space
+3.5633 	INFO 	Keyboard events cleared
+3.5631 	EXP 	text: autoDraw = False
+3.5631 	EXP 	text: autoDraw = True
+3.6550 	EXP 	Device response: <KeyPress from None: t=3.5297158000757918, value=space, duration=0.12357359996531159>
+4.7011 	DATA 	Mouse: Left button down, pos=(282,377)
+4.8312 	DATA 	Mouse:  Left button up, pos=(282,377)
+5.3549 	DATA 	Keypress: space
+5.3717 	EXP 	Device response: <KeyPress from None: t=5.351592499995604, value=space, duration=None>
+5.3954 	EXP 	text: autoDraw = False
+5.3954 	EXP 	partyslider: markerPos = None
+5.3954 	EXP 	partyslider: markerPos = 1
+5.3954 	EXP 	partyslider: autoDraw = True
+5.3954 	EXP 	partyInstructions: autoDraw = True
+5.4869 	EXP 	Device response: <KeyPress from None: t=5.351592499995604, value=space, duration=0.11701430007815361>
+6.7369 	DATA 	Mouse: Left button down, pos=(99,69)
+6.7504 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.7714 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.7913 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.8211 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.8396 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.8607 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.8829 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.9023 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.9232 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.9460 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.9649 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+6.9860 	EXP 	partyslider: markerPos = np.float64(0.9983333333333333)
+7.0138 	EXP 	partyslider: markerPos = np.float64(1.0016666666666667)
+7.0408 	EXP 	partyslider: markerPos = np.float64(1.0383333333333333)
+7.0697 	EXP 	partyslider: markerPos = np.float64(1.0733333333333333)
+7.0822 	EXP 	partyslider: markerPos = np.float64(1.1)
+7.0963 	EXP 	partyslider: markerPos = np.float64(1.1083333333333334)
+7.1100 	EXP 	partyslider: markerPos = np.float64(1.1183333333333334)
+7.1325 	EXP 	partyslider: markerPos = np.float64(1.1283333333333334)
+7.1448 	EXP 	partyslider: markerPos = np.float64(1.1533333333333333)
+7.1587 	EXP 	partyslider: markerPos = np.float64(1.1583333333333332)
+7.1726 	EXP 	partyslider: markerPos = np.float64(1.1633333333333333)
+7.1950 	EXP 	partyslider: markerPos = np.float64(1.1683333333333334)
+7.2075 	EXP 	partyslider: markerPos = np.float64(1.1816666666666666)
+7.2209 	EXP 	partyslider: markerPos = np.float64(1.185)
+7.2348 	EXP 	partyslider: markerPos = np.float64(1.2033333333333334)
+7.2488 	EXP 	partyslider: markerPos = np.float64(1.2133333333333334)
+7.2625 	EXP 	partyslider: markerPos = np.float64(1.2349999999999999)
+7.2766 	EXP 	partyslider: markerPos = np.float64(1.2566666666666666)
+7.2904 	EXP 	partyslider: markerPos = np.float64(1.2783333333333333)
+7.3044 	EXP 	partyslider: markerPos = np.float64(1.2883333333333333)
+7.3200 	EXP 	partyslider: markerPos = np.float64(1.2933333333333334)
+7.3322 	EXP 	partyslider: markerPos = np.float64(1.3016666666666667)
+7.3461 	EXP 	partyslider: markerPos = np.float64(1.3066666666666666)
+7.3598 	EXP 	partyslider: markerPos = np.float64(1.3116666666666665)
+7.3668 	DATA 	Mouse:  Left button up, pos=(288,71)
+7.3737 	EXP 	partyslider: markerPos = np.float64(1.3133333333333335)
+7.3960 	EXP 	partyslider: markerPos = 1.0
+7.4087 	DEBUG 	Read excel file with openpyxl: Stimuli_w_path.xlsx
+7.4093 	EXP 	Imported Stimuli_w_path.xlsx as conditions, 3 conditions, 6 params
+7.4097 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Pair': 'ajar/open', 'SIDR': 0.11, 'weak_sentence': 'The spokesperson said the door to the ballot room was ajar.', 'strong_sentence': 'The spokesperson said the door to the ballot room was open.', 'weak_image': 'Image stimuli/Ajar_Sora_25112025.png', 'strong_image': 'Image stimuli/Open_Sora_25112025.png', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.5456 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5477 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5517 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5534 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5547 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5586 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5604 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5617 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5635 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5652 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5667 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.5670 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.5693 	DEBUG 	Upload of Texture Font fontname complete
+7.5707 	DATA 	Mouse: Left button down, pos=(288,71)
+7.5845 	EXP 	partyslider: autoDraw = False
+7.5845 	EXP 	partyInstructions: autoDraw = False
+7.5845 	EXP 	image: image = 'Image stimuli/Ajar_Sora_25112025.png'
+7.5845 	EXP 	image_2: image = 'Image stimuli/Open_Sora_25112025.png'
+7.5845 	EXP 	slider: markerPos = None
+7.5845 	EXP 	slider: markerPos = None
+7.5845 	EXP 	image: autoDraw = True
+7.5845 	EXP 	image_2: autoDraw = True
+7.5845 	EXP 	textbox: autoDraw = True
+7.5845 	EXP 	errorBox: autoDraw = True
+7.5845 	EXP 	slider: autoDraw = True
+9.6329 	DATA 	Mouse:  Left button up, pos=(342,67)
+10.5274 	DATA 	Mouse: Left button down, pos=(420,355)
+10.7975 	EXP 	slider: markerPos = np.float64(1.2666666666666666)
+10.8183 	EXP 	slider: markerPos = np.float64(1.1466666666666665)
+10.8389 	EXP 	slider: markerPos = np.float64(1.0666666666666667)
+10.8599 	EXP 	slider: markerPos = np.float64(1.0)
+10.8807 	EXP 	slider: markerPos = np.float64(0.9733333333333334)
+10.9016 	EXP 	slider: markerPos = np.float64(0.9333333333333333)
+10.9224 	EXP 	slider: markerPos = np.float64(0.8666666666666667)
+10.9431 	EXP 	slider: markerPos = np.float64(0.8133333333333332)
+10.9640 	EXP 	slider: markerPos = np.float64(0.76)
+10.9849 	EXP 	slider: markerPos = np.float64(0.72)
+11.0056 	EXP 	slider: markerPos = np.float64(0.6799999999999999)
+11.0265 	EXP 	slider: markerPos = np.float64(0.6533333333333333)
+11.0474 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+11.0682 	EXP 	slider: markerPos = np.float64(0.6266666666666667)
+11.0891 	EXP 	slider: markerPos = np.float64(0.6000000000000001)
+11.1098 	EXP 	slider: markerPos = np.float64(0.6000000000000001)
+11.1307 	EXP 	slider: markerPos = np.float64(0.6266666666666667)
+11.1516 	EXP 	slider: markerPos = np.float64(0.7333333333333334)
+11.1807 	EXP 	slider: markerPos = np.float64(1.44)
+11.2002 	EXP 	slider: markerPos = np.float64(3.0933333333333333)
+11.2207 	EXP 	slider: markerPos = np.float64(3.453333333333333)
+11.2487 	EXP 	slider: markerPos = np.float64(3.586666666666667)
+11.2697 	EXP 	slider: markerPos = np.float64(3.6933333333333334)
+11.2904 	EXP 	slider: markerPos = np.float64(3.7333333333333334)
+11.3182 	EXP 	slider: markerPos = np.float64(3.7733333333333334)
+11.3390 	EXP 	slider: markerPos = np.float64(3.8133333333333335)
+11.3610 	EXP 	slider: markerPos = np.float64(3.8266666666666667)
+11.3877 	EXP 	slider: markerPos = np.float64(3.84)
+11.4086 	EXP 	slider: markerPos = np.float64(3.8666666666666667)
+11.4294 	EXP 	slider: markerPos = np.float64(3.88)
+11.4572 	EXP 	slider: markerPos = np.float64(3.9066666666666667)
+11.4780 	EXP 	slider: markerPos = np.float64(3.96)
+11.4988 	EXP 	slider: markerPos = np.float64(3.96)
+11.5224 	EXP 	slider: markerPos = np.float64(3.96)
+11.5474 	EXP 	slider: markerPos = np.float64(3.9333333333333336)
+11.5680 	EXP 	slider: markerPos = np.float64(3.8533333333333335)
+11.5888 	EXP 	slider: markerPos = np.float64(3.586666666666667)
+11.6170 	EXP 	slider: markerPos = np.float64(2.8933333333333335)
+11.6376 	EXP 	slider: markerPos = np.float64(2.506666666666667)
+11.6585 	EXP 	slider: markerPos = np.float64(2.3466666666666667)
+11.6860 	EXP 	slider: markerPos = np.float64(2.1733333333333333)
+11.7071 	EXP 	slider: markerPos = np.float64(2.0533333333333332)
+11.7278 	EXP 	slider: markerPos = np.float64(1.9733333333333334)
+11.7519 	EXP 	slider: markerPos = np.float64(1.92)
+11.7694 	EXP 	slider: markerPos = np.float64(1.8133333333333332)
+11.7903 	EXP 	slider: markerPos = np.float64(1.7866666666666666)
+11.8149 	EXP 	slider: markerPos = np.float64(1.7066666666666666)
+11.8316 	EXP 	slider: markerPos = np.float64(1.6)
+11.8530 	EXP 	slider: markerPos = np.float64(1.52)
+11.8778 	EXP 	slider: markerPos = np.float64(1.44)
+11.8943 	EXP 	slider: markerPos = np.float64(1.3199999999999998)
+11.9154 	EXP 	slider: markerPos = np.float64(1.2666666666666666)
+11.9383 	EXP 	slider: markerPos = np.float64(1.1333333333333333)
+11.9570 	EXP 	slider: markerPos = np.float64(0.9066666666666667)
+11.9780 	EXP 	slider: markerPos = np.float64(0.7733333333333334)
+12.0020 	EXP 	slider: markerPos = np.float64(0.6133333333333333)
+12.0200 	EXP 	slider: markerPos = np.float64(0.41333333333333333)
+12.0403 	EXP 	slider: markerPos = np.float64(0.3600000000000001)
+12.0640 	EXP 	slider: markerPos = np.float64(0.22666666666666657)
+12.0823 	EXP 	slider: markerPos = np.float64(0.10666666666666669)
+12.1029 	EXP 	slider: markerPos = np.float64(0.040000000000000036)
+12.1258 	EXP 	slider: markerPos = np.float64(-0.040000000000000036)
+12.1444 	EXP 	slider: markerPos = np.float64(-0.1333333333333333)
+12.1653 	EXP 	slider: markerPos = np.float64(-0.1466666666666665)
+12.1885 	EXP 	slider: markerPos = np.float64(-0.21333333333333337)
+12.2068 	EXP 	slider: markerPos = np.float64(-0.2666666666666666)
+12.2277 	EXP 	slider: markerPos = np.float64(-0.2799999999999998)
+12.2517 	EXP 	slider: markerPos = np.float64(-0.31999999999999984)
+12.2693 	EXP 	slider: markerPos = np.float64(-0.3333333333333335)
+12.2905 	EXP 	slider: markerPos = np.float64(-0.3599999999999999)
+12.3128 	EXP 	slider: markerPos = np.float64(-0.3599999999999999)
+12.3319 	EXP 	slider: markerPos = np.float64(-0.3466666666666667)
+12.3527 	EXP 	slider: markerPos = np.float64(-0.3333333333333335)
+12.3751 	EXP 	slider: markerPos = np.float64(-0.31999999999999984)
+12.3944 	EXP 	slider: markerPos = np.float64(-0.2400000000000002)
+12.4154 	EXP 	slider: markerPos = np.float64(-0.20000000000000018)
+12.4362 	EXP 	slider: markerPos = np.float64(0.026666666666666616)
+12.4572 	EXP 	slider: markerPos = np.float64(0.33333333333333326)
+12.4779 	EXP 	slider: markerPos = np.float64(0.6000000000000001)
+12.4987 	EXP 	slider: markerPos = np.float64(0.9866666666666666)
+12.5195 	EXP 	slider: markerPos = np.float64(1.2933333333333334)
+12.5404 	EXP 	slider: markerPos = np.float64(1.6266666666666667)
+12.5612 	EXP 	slider: markerPos = np.float64(2.066666666666667)
+12.5822 	EXP 	slider: markerPos = np.float64(2.9066666666666667)
+12.6057 	EXP 	slider: markerPos = np.float64(3.4266666666666667)
+12.6236 	EXP 	slider: markerPos = np.float64(3.7333333333333334)
+12.6450 	EXP 	slider: markerPos = np.float64(3.8933333333333335)
+12.6654 	EXP 	slider: markerPos = np.float64(4.373333333333333)
+12.6860 	EXP 	slider: markerPos = np.float64(5.1466666666666665)
+12.7072 	EXP 	slider: markerPos = np.float64(5.746666666666666)
+12.7278 	EXP 	slider: markerPos = np.float64(6.093333333333334)
+12.7485 	EXP 	slider: markerPos = np.float64(6.36)
+12.7694 	EXP 	slider: markerPos = np.float64(6.52)
+12.7904 	EXP 	slider: markerPos = np.float64(6.68)
+12.8110 	EXP 	slider: markerPos = np.float64(6.786666666666667)
+12.8324 	EXP 	slider: markerPos = np.float64(6.84)
+12.8374 	DATA 	Mouse:  Left button up, pos=(763,314)
+12.8528 	EXP 	slider: markerPos = 4.0
+20.4330 	DATA 	Mouse: Left button down, pos=(397,297)
+20.4435 	EXP 	slider: markerPos = np.float64(1.96)
+20.4589 	EXP 	slider: markerPos = np.float64(1.96)
+20.4774 	EXP 	slider: markerPos = np.float64(1.96)
+20.4914 	EXP 	slider: markerPos = np.float64(1.96)
+20.5053 	EXP 	slider: markerPos = np.float64(1.96)
+20.5087 	DATA 	Mouse:  Left button up, pos=(397,297)
+20.5190 	EXP 	slider: markerPos = 2.0
+20.6284 	DATA 	Keypress: space
+20.6407 	EXP 	Device response: <KeyPress from None: t=20.626126300077885, value=space, duration=None>
+20.6413 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'Pair': 'adequate/good', 'SIDR': 0.44, 'weak_sentence': 'The spokesperson said the office equipment was adequate.', 'strong_sentence': 'The spokesperson said the office equipment was good.', 'weak_image': 'Image stimuli/Adequate_Sora_25112025.png', 'strong_image': 'Image stimuli/Good_Sora_25112025 (3).png', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+20.7448 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7464 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7481 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7495 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+20.7500 	DEBUG 	Uploading Texture Font fontname to graphics card
+20.7512 	DEBUG 	Upload of Texture Font fontname complete
+20.7537 	EXP 	Device response: <KeyPress from None: t=20.626126300077885, value=space, duration=0.030789899989031255>
+20.7624 	EXP 	image: autoDraw = False
+20.7624 	EXP 	image_2: autoDraw = False
+20.7624 	EXP 	textbox: autoDraw = False
+20.7624 	EXP 	errorBox: autoDraw = False
+20.7624 	EXP 	slider: autoDraw = False
+20.7624 	EXP 	image: image = 'Image stimuli/Adequate_Sora_25112025.png'
+20.7624 	EXP 	image_2: image = 'Image stimuli/Good_Sora_25112025 (3).png'
+20.7624 	EXP 	slider: markerPos = None
+20.7624 	EXP 	slider: markerPos = None
+20.7624 	EXP 	image: autoDraw = True
+20.7624 	EXP 	image_2: autoDraw = True
+20.7624 	EXP 	textbox: autoDraw = True
+20.7624 	EXP 	errorBox: autoDraw = True
+20.7624 	EXP 	slider: autoDraw = True
+21.0780 	DATA 	Mouse: Left button down, pos=(397,297)
+21.0884 	EXP 	slider: markerPos = np.float64(1.96)
+21.1096 	EXP 	slider: markerPos = np.float64(1.96)
+21.1232 	EXP 	slider: markerPos = np.float64(1.96)
+21.1444 	EXP 	slider: markerPos = np.float64(1.96)
+21.1726 	EXP 	slider: markerPos = np.float64(1.96)
+21.1883 	DATA 	Mouse:  Left button up, pos=(397,297)
+21.2003 	EXP 	slider: markerPos = 2.0
+21.2236 	DATA 	Keypress: space
+21.2307 	EXP 	Device response: <KeyPress from None: t=21.219592900015414, value=space, duration=None>
+21.2313 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'Pair': 'likely/certain', 'SIDR': 0.79, 'weak_sentence': 'The spokesperson said success was likely.', 'strong_sentence': 'The spokesperson said success was certain.', 'weak_image': 'Image stimuli/Likely_Sora_25112025.png', 'strong_image': 'Image stimuli/Certain_Sora_25112025.png', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+21.3538 	EXP 	image: autoDraw = False
+21.3538 	EXP 	image_2: autoDraw = False
+21.3538 	EXP 	textbox: autoDraw = False
+21.3538 	EXP 	errorBox: autoDraw = False
+21.3538 	EXP 	slider: autoDraw = False
+21.3538 	EXP 	image: image = 'Image stimuli/Likely_Sora_25112025.png'
+21.3538 	EXP 	image_2: image = 'Image stimuli/Certain_Sora_25112025.png'
+21.3538 	EXP 	slider: markerPos = None
+21.3538 	EXP 	slider: markerPos = None
+21.3538 	EXP 	image: autoDraw = True
+21.3538 	EXP 	image_2: autoDraw = True
+21.3538 	EXP 	textbox: autoDraw = True
+21.3538 	EXP 	errorBox: autoDraw = True
+21.3538 	EXP 	slider: autoDraw = True
+21.3690 	EXP 	Device response: <KeyPress from None: t=21.219592900015414, value=space, duration=0.14753990003373474>
+21.8147 	DATA 	Keypress: space
+21.8227 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8302 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+21.8311 	DEBUG 	Uploading Texture Font fontname to graphics card
+21.8324 	DEBUG 	Upload of Texture Font fontname complete
+21.8327 	EXP 	Device response: <KeyPress from None: t=21.800309500074945, value=space, duration=None>
+21.9374 	EXP 	Device response: <KeyPress from None: t=21.800309500074945, value=space, duration=0.12886910000815988>
+22.2317 	DATA 	Mouse: Left button down, pos=(397,297)
+22.2556 	EXP 	slider: markerPos = np.float64(1.96)
+22.2837 	EXP 	slider: markerPos = np.float64(1.96)
+22.3113 	EXP 	slider: markerPos = np.float64(1.96)
+22.3389 	EXP 	slider: markerPos = np.float64(1.96)
+22.3639 	EXP 	slider: markerPos = np.float64(1.96)
+22.3698 	DATA 	Mouse:  Left button up, pos=(397,297)
+22.3874 	EXP 	slider: markerPos = 2.0
+22.5179 	DATA 	Keypress: space
+22.5199 	EXP 	Device response: <KeyPress from None: t=22.507504099979997, value=space, duration=None>
+22.5271 	EXP 	image: autoDraw = False
+22.5271 	EXP 	image_2: autoDraw = False
+22.5271 	EXP 	textbox: autoDraw = False
+22.5271 	EXP 	errorBox: autoDraw = False
+22.5271 	EXP 	slider: autoDraw = False
+22.5317 	EXP 	acceptability-judgment-advanced: status = STOPPED
+22.5539 	INFO 	saved data to 'C:\\Users\\ctnic\\OneDrive\\Desktop\\FInal_ling_805\\data\\pilot_acceptability-judgment-advanced_2025-12-02_09h52.26.695.csv'
+22.5553 	INFO 	saved data to C:\Users\ctnic\OneDrive\Desktop\FInal_ling_805\data\pilot_acceptability-judgment-advanced_2025-12-02_09h52.26.695.psydat
+22.9153 	DEBUG 	Saving data for acceptability-judgment-advanced ExperimentHandler
+22.9188 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+22.9380 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

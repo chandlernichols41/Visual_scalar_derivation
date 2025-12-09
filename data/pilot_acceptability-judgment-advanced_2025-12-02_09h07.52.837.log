@@ -1,0 +1,210 @@
+7.2864 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+7.2881 	INFO 	Loaded monitor calibration from ['2025_11_04 16:23']
+7.5013 	INFO 	Using renderer 'Intel(R) UHD Graphics' for graphics
+7.5013 	INFO 	OpenGL version supported by driver is 4..
+7.6240 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002E680019DE0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002E680019D80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002E6802415A0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(240.0)], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6240 	EXP 	window1: backgroundImage = ''
+7.6241 	EXP 	window1: backgroundFit = 'none'
+7.6570 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6730 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.6910 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7071 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7231 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7384 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7547 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7707 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.7860 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8013 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8171 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8334 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8491 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8648 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8804 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.8960 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9121 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9275 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9431 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9590 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9748 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.9752 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.9780 	DEBUG 	Upload of Texture Font fontname complete
+8.0072 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0231 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0391 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.0394 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.0407 	DEBUG 	Upload of Texture Font fontname complete
+8.0429 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.0429 	EXP 	window1: recordFrameIntervals = False
+8.1500 	EXP 	window1: recordFrameIntervals = True
+8.3046 	EXP 	Screen (0) actual frame rate measured at 71.26Hz
+8.3047 	EXP 	window1: recordFrameIntervals = False
+8.3707 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.3872 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4199 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4364 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4526 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4680 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.4842 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5005 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5165 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.5169 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.5181 	DEBUG 	Upload of Texture Font fontname complete
+8.7500 	INFO 	keyboard.Keyboard is using ptb backend.
+8.7501 	INFO 	keyboard.Keyboard is using ptb backend.
+8.7501 	EXP 	acceptability-judgment-advanced: status = STARTED
+8.8821 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.9141 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('left', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+8.9182 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('right', 'top'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0.85, 0.  ]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+8.9454 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9464 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9474 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9482 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9486 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9506 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9510 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+8.9513 	DEBUG 	Uploading Texture Font fontname to graphics card
+8.9526 	DEBUG 	Upload of Texture Font fontname complete
+9.0015 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-6, fillColor=None, flip=False, font='Noto Sans', granularity=1.0, labelColor=None, labelHeight=np.float64(0.05), labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='scrollbar', styleTweaks=[], ticks=array([0, 1, 2, 3, 4]), units='height', win=Window(...))
+0.0083 	EXP 	textbox: autoLog = True
+0.0083 	EXP 	errorBox: autoLog = True
+0.0083 	EXP 	slider: autoLog = True
+0.0083 	EXP 	slider: ticks = <class 'numpy.ndarray'>
+0.0083 	EXP 	slider: styleTweaks = []
+0.0083 	EXP 	slider: styleTweaks = []
+0.0083 	EXP 	slider: styleTweaks = []
+0.0083 	EXP 	slider: styleTweaks = []
+0.0083 	EXP 	slider: contrast = 1.0
+0.0083 	EXP 	slider: markerPos = None
+0.0083 	EXP 	slider: autoLog = True
+0.0161 	INFO 	Keyboard events cleared
+0.0161 	EXP 	text: autoDraw = True
+1.3367 	EXP 	Device response: <KeyPress from None: t=1.3303147000260651, value=space, duration=None>
+1.3439 	DEBUG 	Read excel file with openpyxl: Stimuli_w_path.xlsx
+1.3444 	EXP 	Imported Stimuli_w_path.xlsx as conditions, 3 conditions, 6 params
+1.3447 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Pair': 'likely/certain', 'SIDR': 0.79, 'weak_sentence': 'The spokesperson said success was likely.', 'strong_sentence': 'The spokesperson said success was certain.', 'weak_image': 'Image stimuli\\Likely_Sora_25112025.png', 'strong_image': 'Image stimuli\\Certain_Sora_25112025.png', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.4878 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4887 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4896 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4904 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4912 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4920 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4934 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4946 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4957 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4972 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4980 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+1.4984 	DEBUG 	Uploading Texture Font fontname to graphics card
+1.4990 	DEBUG 	Upload of Texture Font fontname complete
+1.5005 	DATA 	Keypress: space
+1.5017 	EXP 	Device response: <KeyPress from None: t=1.3303147000260651, value=space, duration=0.054747399990446866>
+1.5179 	EXP 	text: autoDraw = False
+1.5179 	EXP 	image: image = 'Image stimuli\\Likely_Sora_25112025.png'
+1.5179 	EXP 	image_2: image = 'Image stimuli\\Certain_Sora_25112025.png'
+1.5179 	EXP 	slider: markerPos = None
+1.5179 	EXP 	slider: markerPos = None
+1.5179 	EXP 	image: autoDraw = True
+1.5179 	EXP 	image_2: autoDraw = True
+1.5179 	EXP 	textbox: autoDraw = True
+1.5179 	EXP 	errorBox: autoDraw = True
+1.5179 	EXP 	slider: autoDraw = True
+3.0886 	DATA 	Mouse: Left button down, pos=(168,276)
+3.0989 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.1197 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.1404 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.1613 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.1821 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.2030 	EXP 	slider: markerPos = np.float64(0.45333333333333337)
+3.2150 	DATA 	Mouse:  Left button up, pos=(168,276)
+3.2239 	EXP 	slider: markerPos = 0.0
+3.4915 	DATA 	Keypress: space
+3.4987 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5000 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5009 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5020 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5030 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5042 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5045 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.5106 	DEBUG 	Upload of Texture Font fontname complete
+3.5108 	EXP 	Device response: <KeyPress from None: t=3.4897018999326974, value=space, duration=None>
+3.5108 	EXP 	Device response: <KeyPress from None: t=3.4897018999326974, value=space, duration=0.0026775000151246786>
+4.7361 	DATA 	Mouse: Left button down, pos=(196,306)
+4.7515 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.7651 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.7790 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.7927 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.8100 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.8279 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+4.8312 	DATA 	Mouse:  Left button up, pos=(196,306)
+4.8487 	EXP 	slider: markerPos = 1.0
+4.9475 	DATA 	Keypress: space
+4.9605 	EXP 	Device response: <KeyPress from None: t=4.945590800023638, value=space, duration=None>
+4.9620 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'Pair': 'adequate/good', 'SIDR': 0.44, 'weak_sentence': 'The spokesperson said the office equipment was adequate.', 'strong_sentence': 'The spokesperson said the office equipment was good.', 'weak_image': 'Image stimuli\\Adequate_Sora_25112025.png', 'strong_image': 'Image stimuli\\Good_Sora_25112025 (3).png', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+5.1017 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.1023 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.1030 	DEBUG 	Upload of Texture Font fontname complete
+5.1051 	EXP 	Device response: <KeyPress from None: t=4.945590800023638, value=space, duration=0.11680219997651875>
+5.1187 	EXP 	image: autoDraw = False
+5.1187 	EXP 	image_2: autoDraw = False
+5.1187 	EXP 	textbox: autoDraw = False
+5.1187 	EXP 	errorBox: autoDraw = False
+5.1187 	EXP 	slider: autoDraw = False
+5.1187 	EXP 	image: image = 'Image stimuli\\Adequate_Sora_25112025.png'
+5.1187 	EXP 	image_2: image = 'Image stimuli\\Good_Sora_25112025 (3).png'
+5.1187 	EXP 	slider: markerPos = None
+5.1187 	EXP 	slider: markerPos = None
+5.1187 	EXP 	image: autoDraw = True
+5.1187 	EXP 	image_2: autoDraw = True
+5.1187 	EXP 	textbox: autoDraw = True
+5.1187 	EXP 	errorBox: autoDraw = True
+5.1187 	EXP 	slider: autoDraw = True
+5.7183 	DATA 	Mouse: Left button down, pos=(196,306)
+5.7335 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+5.7588 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+5.7867 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+5.8146 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+5.8215 	DATA 	Mouse:  Left button up, pos=(196,306)
+5.8419 	EXP 	slider: markerPos = 1.0
+6.0189 	DATA 	Keypress: space
+6.0193 	EXP 	Device response: <KeyPress from None: t=6.012187000014819, value=space, duration=None>
+6.0200 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'Pair': 'ajar/open', 'SIDR': 0.11, 'weak_sentence': 'The spokesperson said the door to the ballot room was ajar.', 'strong_sentence': 'The spokesperson said the door to the ballot room was open.', 'weak_image': 'Image stimuli\\Ajar_Sora_25112025.png', 'strong_image': 'Image stimuli\\Open_Sora_25112025.png', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+6.1396 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1399 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1404 	DEBUG 	Upload of Texture Font fontname complete
+6.1535 	EXP 	image: autoDraw = False
+6.1535 	EXP 	image_2: autoDraw = False
+6.1535 	EXP 	textbox: autoDraw = False
+6.1535 	EXP 	errorBox: autoDraw = False
+6.1535 	EXP 	slider: autoDraw = False
+6.1535 	EXP 	image: image = 'Image stimuli\\Ajar_Sora_25112025.png'
+6.1535 	EXP 	image_2: image = 'Image stimuli\\Open_Sora_25112025.png'
+6.1535 	EXP 	slider: markerPos = None
+6.1535 	EXP 	slider: markerPos = None
+6.1535 	EXP 	image: autoDraw = True
+6.1535 	EXP 	image_2: autoDraw = True
+6.1535 	EXP 	textbox: autoDraw = True
+6.1535 	EXP 	errorBox: autoDraw = True
+6.1535 	EXP 	slider: autoDraw = True
+6.1564 	EXP 	Device response: <KeyPress from None: t=6.012187000014819, value=space, duration=0.13275759993121028>
+6.5187 	DATA 	Mouse: Left button down, pos=(196,306)
+6.5446 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+6.5642 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+6.5850 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+6.6083 	EXP 	slider: markerPos = np.float64(0.6399999999999999)
+6.6147 	DATA 	Mouse:  Left button up, pos=(196,306)
+6.6339 	EXP 	slider: markerPos = 1.0
+6.7477 	DATA 	Keypress: space
+6.7483 	EXP 	Device response: <KeyPress from None: t=6.745795700000599, value=space, duration=None>
+6.7593 	EXP 	image: autoDraw = False
+6.7593 	EXP 	image_2: autoDraw = False
+6.7593 	EXP 	textbox: autoDraw = False
+6.7593 	EXP 	errorBox: autoDraw = False
+6.7593 	EXP 	slider: autoDraw = False
+6.7637 	EXP 	acceptability-judgment-advanced: status = STOPPED
+6.7720 	INFO 	saved data to 'C:\\Users\\ctnic\\OneDrive\\Desktop\\FInal_ling_805\\data\\pilot_acceptability-judgment-advanced_2025-12-02_09h07.52.837.csv'
+6.7734 	INFO 	saved data to C:\Users\ctnic\OneDrive\Desktop\FInal_ling_805\data\pilot_acceptability-judgment-advanced_2025-12-02_09h07.52.837.psydat
+7.1179 	DEBUG 	Saving data for acceptability-judgment-advanced ExperimentHandler
+7.1235 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.1744 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
