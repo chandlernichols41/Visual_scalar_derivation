@@ -510,6 +510,23 @@
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
+      <CodeComponent name="datapipe" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="// --------------- SEND DATA TO DATAPIPE / OSF ---------------&amp;#10;// may need to move to end experiment - running rate differences &amp;#10;// Turn off PsychoJS default saving (so only DataPipe handles it)&amp;#10;psychoJS._saveResults = false;&amp;#10;&amp;#10;// Build a filename for this participant&amp;#10;const expName =&amp;#10;    psychoJS._experimentName || psychoJS._experiment._experimentName;&amp;#10;const dateStr = psychoJS._experiment._datetime;&amp;#10;const filename = `${expName}_${dateStr}.csv`;&amp;#10;&amp;#10;// Get all trial data that PsychoJS has stored&amp;#10;const trialsData = psychoJS._experiment._trialsData;&amp;#10;&amp;#10;// If there's no data, don't bother trying to send anything&amp;#10;if (!trialsData || trialsData.length === 0) {&amp;#10;  console.warn('No trial data found, nothing to send to DataPipe.');&amp;#10;} else {&amp;#10;&amp;#10;  // --- Convert data to CSV string ---&amp;#10;&amp;#10;  // Use the keys of the first trial as the header&amp;#10;  const header = Object.keys(trialsData[0]);&amp;#10;  const rows = [];&amp;#10;&amp;#10;  // Header row&amp;#10;  rows.push(header.join(','));&amp;#10;&amp;#10;  // One row per trial&amp;#10;  for (let i = 0; i &lt; trialsData.length; i++) {&amp;#10;    const trial = trialsData[i];&amp;#10;    const row = header.map(k =&gt; {&amp;#10;      const value = trial[k];&amp;#10;&amp;#10;      // Basic CSV-safe stringification&amp;#10;      if (value === undefined || value === null) {&amp;#10;        return '';&amp;#10;      }&amp;#10;      const str = String(value).replace(/&quot;/g, '&quot;&quot;');&amp;#10;      return `&quot;${str}&quot;`;&amp;#10;    });&amp;#10;    rows.push(row.join(','));&amp;#10;  }&amp;#10;&amp;#10;  const csvString = rows.join('\n');&amp;#10;&amp;#10;  console.log('Sending data to DataPipe...', { filename });&amp;#10;&amp;#10;  // --- Send to jsPsych DataPipe (which forwards to OSF) ---&amp;#10;&amp;#10;  fetch('https://pipe.jspsych.org/api/data', {&amp;#10;    method: 'POST',&amp;#10;    headers: {&amp;#10;      'Content-Type': 'application/json',&amp;#10;      'Accept': '*/*',&amp;#10;    },&amp;#10;    body: JSON.stringify({&amp;#10;      // Your DataPipe experiment ID (from the screenshot)&amp;#10;      experimentID: '5qSsKEMf3WMV',&amp;#10;      filename: filename,&amp;#10;      data: csvString,&amp;#10;    }),&amp;#10;  })&amp;#10;    .then(response =&gt;&amp;#10;      response&amp;#10;        .json()&amp;#10;        .then(body =&gt; ({ ok: response.ok, status: response.status, body }))&amp;#10;    )&amp;#10;    .then(({ ok, status, body }) =&gt; {&amp;#10;      if (!ok) {&amp;#10;        console.error('DataPipe error:', status, body);&amp;#10;      } else {&amp;#10;        console.log('DataPipe success:', body);&amp;#10;      }&amp;#10;    })&amp;#10;    .catch(err =&gt; {&amp;#10;      console.error('Network or fetch error when sending to DataPipe:', err);&amp;#10;    });&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="datapipe" valType="code" updates="None" name="name"/>
+      </CodeComponent>
       <TextComponent name="text_2" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -537,23 +554,6 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <CodeComponent name="datapipe" plugin="None">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="// --------------- SEND DATA TO DATAPIPE / OSF ---------------&amp;#10;&amp;#10;// Turn off PsychoJS default saving (so only DataPipe handles it)&amp;#10;psychoJS._saveResults = false;&amp;#10;&amp;#10;// Build a filename for this participant&amp;#10;const expName =&amp;#10;    psychoJS._experimentName || psychoJS._experiment._experimentName;&amp;#10;const dateStr = psychoJS._experiment._datetime;&amp;#10;const filename = `${expName}_${dateStr}.csv`;&amp;#10;&amp;#10;// Get all trial data that PsychoJS has stored&amp;#10;const trialsData = psychoJS._experiment._trialsData;&amp;#10;&amp;#10;// If there's no data, don't bother trying to send anything&amp;#10;if (!trialsData || trialsData.length === 0) {&amp;#10;  console.warn('No trial data found, nothing to send to DataPipe.');&amp;#10;} else {&amp;#10;&amp;#10;  // --- Convert data to CSV string ---&amp;#10;&amp;#10;  // Use the keys of the first trial as the header&amp;#10;  const header = Object.keys(trialsData[0]);&amp;#10;  const rows = [];&amp;#10;&amp;#10;  // Header row&amp;#10;  rows.push(header.join(','));&amp;#10;&amp;#10;  // One row per trial&amp;#10;  for (let i = 0; i &lt; trialsData.length; i++) {&amp;#10;    const trial = trialsData[i];&amp;#10;    const row = header.map(k =&gt; {&amp;#10;      const value = trial[k];&amp;#10;&amp;#10;      // Basic CSV-safe stringification&amp;#10;      if (value === undefined || value === null) {&amp;#10;        return '';&amp;#10;      }&amp;#10;      const str = String(value).replace(/&quot;/g, '&quot;&quot;');&amp;#10;      return `&quot;${str}&quot;`;&amp;#10;    });&amp;#10;    rows.push(row.join(','));&amp;#10;  }&amp;#10;&amp;#10;  const csvString = rows.join('\n');&amp;#10;&amp;#10;  console.log('Sending data to DataPipe...', { filename });&amp;#10;&amp;#10;  // --- Send to jsPsych DataPipe (which forwards to OSF) ---&amp;#10;&amp;#10;  fetch('https://pipe.jspsych.org/api/data', {&amp;#10;    method: 'POST',&amp;#10;    headers: {&amp;#10;      'Content-Type': 'application/json',&amp;#10;      'Accept': '*/*',&amp;#10;    },&amp;#10;    body: JSON.stringify({&amp;#10;      // Your DataPipe experiment ID (from the screenshot)&amp;#10;      experimentID: '5qSsKEMf3WMV',&amp;#10;      filename: filename,&amp;#10;      data: csvString,&amp;#10;    }),&amp;#10;  })&amp;#10;    .then(response =&gt;&amp;#10;      response&amp;#10;        .json()&amp;#10;        .then(body =&gt; ({ ok: response.ok, status: response.status, body }))&amp;#10;    )&amp;#10;    .then(({ ok, status, body }) =&gt; {&amp;#10;      if (!ok) {&amp;#10;        console.error('DataPipe error:', status, body);&amp;#10;      } else {&amp;#10;        console.log('DataPipe success:', body);&amp;#10;      }&amp;#10;    })&amp;#10;    .catch(err =&gt; {&amp;#10;      console.error('Network or fetch error when sending to DataPipe:', err);&amp;#10;    });&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="datapipe" valType="code" updates="None" name="name"/>
-      </CodeComponent>
     </Routine>
   </Routines>
   <Flow>
